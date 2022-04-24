@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* parameters for the header section */
+
 .header {
   display:flex;
   position: relative;
@@ -17,9 +19,8 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #F2F2F2;
-
-  /* parameters for the header section */
 }
+
 
 .logo{
   position:absolute;
@@ -32,9 +33,6 @@
   padding-top: 30px;
   padding-left: 64px;
 }
-
-
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 
 .header__title{
   display:flex;
@@ -83,7 +81,6 @@
   width: 568px;
   background-color:#2F80ED;
 }
-
 
 
 .description {
@@ -178,7 +175,6 @@
   font-weight: bold;
 }
 
-
 .table__text {
   line-height: 1.12;
   font-size: 18px;
@@ -196,8 +192,6 @@
   position:relative;
 }
 
-
-
 .feynman__image{
   position:absolute;
   bottom: 0;
@@ -207,8 +201,6 @@
   background-repeat:no-repeat;
   z-index: 1;
  }
-
-
 
 .feynman__title {
   width: 775px;
@@ -227,8 +219,6 @@
   z-index: 3;
 }
 
-
-
 .feynman__link{
   text-decoration: none;
   position:absolute;
@@ -240,8 +230,6 @@
   color:#2F80ED;
 }
 
-
-
 .kaufman{
   display: flex;
   flex-direction: column;
@@ -252,7 +240,6 @@
   color: white;
   padding-top: 90px;
 }
-
 
 .section-title_theme_dark {
   display: flex;
@@ -295,16 +282,15 @@
 
 .table__heading_dark{
   line-height:1.15;
-  font-size: 24;
-  font-weight: normal;
-  color:bold;
+  font-size:24px;
+  font-weight:bold;
   z-index: 2;
 }
 
 .table__text_dark{
   line-height:1.2;
-  font-size: 18;
-  font-weight: normal;
+  font-size: 18px;
+  font-weight:normal;
   z-index: 2;
 }
 
@@ -361,8 +347,7 @@
 .footer__colum_content_about{
   display:flex;
   flex-direction: column;
-
- }
+}
 
 .footer__column-heading{
   padding-bottom: 20px;
@@ -377,7 +362,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .footer__column_content_social{
