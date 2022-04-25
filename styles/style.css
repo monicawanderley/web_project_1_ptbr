@@ -11,6 +11,16 @@
 
 /* parameters for the header section */
 
+@keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+
 .header {
   display:flex;
   position: relative;
@@ -62,6 +72,14 @@
   color:#2F80ED;
   text-decoration: none;
   font-weight: normal;
+  opacity:1;
+  transition: 0.3s;
+}
+
+
+.header__link:hover {
+   opacity:0.5;
+   color:#2F80ED;
 }
 
 .header__main-ilustration{
@@ -74,12 +92,13 @@
 }
 
 .header__square{
-  position: absolute;
   top: 64px;
   right: 0px;
   height: 568px;
   width: 568px;
   background-color:#2F80ED;
+  transform:rotate(-15deg);
+  animation: rotation 20s linear infinite;
 }
 
 
@@ -317,6 +336,12 @@
   font-size: 36px;
   font-weight: normal;
   color:#2F80ED;
+  opacity:1;
+  transition: 0.3s;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .digits{
@@ -452,7 +477,12 @@
   line-height:42px;
   font-size:30px;
   font-weight:normal;
+  opacity:1;
+  transition: 0.3s;
+}
 
+.khan__buy-link:hover{
+  opacity:0.5;
 }
 
 .kaufman{
@@ -495,7 +525,7 @@
   flex-wrap:wrap;
   width: 1100px;
   align-content: space-between;
-  margin: 0px auto 90px;
+  margin: 0 auto 90px;
 }
 
  .table__cell_theme_dark {
@@ -524,7 +554,7 @@
   height:660px;
   width: 636px;
   z-index:0;
-
+  animation: rotation 20s linear infinite;
 }
 
 .resources{
@@ -640,8 +670,13 @@
 
 .footer__column-link{
  text-decoration: none;
+ opacity:1;
+ transition: 0.3s;
 }
 
+.footer__column-link:hover{
+  opacity:0.5;
+ }
 .footer__social-icons{
   margin-right: 10px;
   height:16px;
