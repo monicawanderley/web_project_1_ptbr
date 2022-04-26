@@ -13,80 +13,120 @@
 
 
 /* Começo das Importações do bloco Header */
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-ilustration/header__main-ilustration.css);
 @import url(../blocks/header/__square/header__square.css);
-
-
 /* Final das Importações do bloco Header */
 
 
 
 /* Começo das Importações do bloco Logo */
-
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__place/logo__place_header.css);
 @import url(../blocks/logo/__place/logo_place_footer.css);
-
 /* Final das Importações do bloco Logo */
 
 
+
 /* Começo das Importações do bloco Description */
-
 @import url(../blocks/description/descritption.css);
-
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /* Final das Importações do bloco Description  */
 
 
 
+
 /* Começo das Importações do bloco Techniques */
-
-
-
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
 /* Final das Importações do bloco Techniques */
 
 
 
-/* Começo das Importações do bloco Header */
-
-/* Final das Importações do bloco Header */
-
-
-
-/* Começo das Importações do bloco Header */
-
-/* Final das Importações do bloco Header */
+/* Começo das Importações do bloco Video */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Video */
 
 
 
-/* Começo das Importações do bloco Header */
-
-/* Final das Importações do bloco Header */
-
-
-
-/* Começo das Importações do bloco Header */
-
-/* Final das Importações do bloco Header */
+/* Começo das Importações do bloco Oakley */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Oakley */
 
 
 
-/* Começo das Importações do bloco Header */
-
-/* Final das Importações do bloco Header */
-
-
-
-/* Começo das Importações do bloco Header */
-
-/* Final das Importações do bloco Header */
+/* Começo das Importações do bloco Feynman */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Feynman */
 
 
 
-/* Começo das Importações do bloco Header *
+/* Começo das Importações do bloco Digits */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Digits */
 
-/* Final das Importações do bloco Header */
+
+
+/* Começo das Importações do bloco Khan */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Khan */
+
+
+
+/* Começo das Importações do bloco Kaufman */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Kaufman */
+
+
+
+/* Começo das Importações do bloco Resources */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Resources */
+
+
+
+/* Começo das Importações do bloco Footer */
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+/* Final das Importações do bloco Footer */

@@ -11,50 +11,6 @@
 
 /* parameters for the header section */
 
-.description {
-  padding-top: 100px;
-}
-
-.two-columns{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  margin: auto;
-  flex-wrap: wrap;
-  width:80%;
- }
-
-.two-columns__brief{
-  width: 175px;
-  color:#2F80ED;
-  line-height: 1.2;
-  font-size:18px;
-  font-weight:normal;
-  margin:0;
-}
-
-.two-columns__main-text{
-  display:flex;
-  flex-direction: column;
-  width:80%;
-  min-width:784px;
-  gap:30px;
-}
-
-.two-columns__paragraph{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight:normal;
-  margin:0;
-}
-
-.two-columns__span-accent{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight:bold;
-}
-
-
 
 .techniques{
   padding-top: 100px;
