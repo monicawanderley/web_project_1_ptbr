@@ -79,13 +79,17 @@
 
 
 /* Começo das Importações do bloco Digits */
-@import url();
-@import url(../blocks/section/title/section-title.css);
-@import url(../blocks/section/subtitle/section-subtitle.css);
-@import url();
-@import url();
+@import url(../blocks/digits/digits.css);
 /* Final das Importações do bloco Digits */
 
+/* Começo das Importações do bloco Table */
+@import url(../blocks/section/title/section-title.css);
+@import url(../blocks/section/subtitle/section-subtitle.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+/* Final das Importações do bloco Table */
 
 
 /* Começo das Importações do bloco Khan */
