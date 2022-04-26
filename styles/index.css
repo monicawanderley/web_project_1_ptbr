@@ -6,6 +6,11 @@
 /* Final das Importações dos blocos roots e vendor */
 
 
+/* Começo das Importações do bloco keyframes */
+@import url(../blocks/keyframes/keyframes.css);
+/* Final das Importações do bloco keyframes */
+
+
 
 /* Começo das Importações do bloco Header */
 
@@ -30,22 +35,19 @@
 /* Final das Importações do bloco Logo */
 
 
+/* Começo das Importações do bloco Description */
 
-/* Começo das Importações do bloco Header */
+@import url(../blocks/description/descritption.css);
 
-/* Final das Importações do bloco Header */
-
-
-
-/* Começo das Importações do bloco Header */
-
-/* Final das Importações do bloco Header */
+/* Final das Importações do bloco Description  */
 
 
 
-/* Começo das Importações do bloco Header */
+/* Começo das Importações do bloco Techniques */
 
-/* Final das Importações do bloco Header */
+
+
+/* Final das Importações do bloco Techniques */
 
 
 
