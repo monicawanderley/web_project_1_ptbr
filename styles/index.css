@@ -121,11 +121,9 @@
 
 
 /* Começo das Importações do bloco Resources */
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 /* Final das Importações do bloco Resources */
 
 
