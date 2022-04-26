@@ -1,0 +1,32 @@
+.page {
+  min-width: 1100px;
+  /* we don't know how to make mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  /* this ensures that all content is centered on screens wider than 1600px */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Começo das Importações do bloco Header */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-ilustration/header__main-ilustration.css);
+@import url(../blocks/header/__square/header__square.css);
+
+
+/* Final das Importações do bloco Header */
+
+
+
+/* Começo das Importações do bloco Logo */
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__place/logo__place_header.css);
+@import url(../blocks/logo/__place/logo_place_footer.css);
+
+/* Final das Importações do bloco Logo */
