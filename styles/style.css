@@ -12,7 +12,7 @@
 /* parameters for the header section */
 
 
-/*
+
 @keyframes rotation {
   from {
     transform: rotate(-15deg);
@@ -20,19 +20,11 @@
   to {
     transform: rotate(345deg);
   }
-} */
-
-.logo{
-  position:absolute;
-  z-index:1;
 }
 
-.logo_place_header{
-  width:154px;
-  height:31px;
-  padding-top: 30px;
-  padding-left: 64px;
-}
+
+
+
 
 .header {
   display:flex;
@@ -73,15 +65,15 @@
   color:#2F80ED;
   text-decoration: none;
   font-weight: normal;
-  /* opacity:1;
-  transition: 0.3s;*/
+  opacity:1;
+  transition: 0.3s;
 }
 
-/*
+
 .header__link:hover {
    opacity:0.5;
    color:#2F80ED;
-}*/
+}
 
 .header__main-ilustration{
   position: absolute;
@@ -98,8 +90,8 @@
   height: 568px;
   width: 568px;
   background-color:#2F80ED;
-  /*transform:rotate(-15deg);
-  animation: rotation 20s linear infinite;*/
+  transform:rotate(-15deg);
+  animation: rotation 20s linear infinite;
 }
 
 
@@ -147,32 +139,9 @@
 }
 
 
-/*
+
 .techniques{
   padding-top: 100px;
-}
-
-.section-title_block_techniques{
-  display: flex;
-  justify-content: center;
-  width:60%;
-  margin: 0 auto;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-
-}
-
-.section-subtitle_block_techniques{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 auto;
-  width:60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  padding-top: 20px;
 }
 
 .cards{
@@ -262,45 +231,10 @@
  flex-direction: row;
 }
 
-
-
 .oakley{
   padding-top:160px;
   background-color:#F2F2F2;
 }
-
-.two-columns_oakley{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  margin:  auto;
-  flex-wrap: wrap;
-  width:80%;
-}
-
-.two-columns__brief_oakley{
-  width: 175px;
-  color: #2F80ED;
-  line-height: 1.2;
-  font-size:18px;
-  font-weight:normal;
-  margin:0;
-}
-
-.two-columns__main-text_oakley{
-  width:80%;
-  min-width:784px;
-}
-
-
-.two-columns__paragraph_oakley{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight:normal;
-  padding-bottom: 30px;
-  margin:0;
-}
-*/
 
 .feynman{
   display: flex;
@@ -349,12 +283,12 @@
   font-size: 36px;
   font-weight: normal;
   color:#2F80ED;
-  /*opacity:1;
-  transition: 0.3s;*/
+  opacity:1;
+  transition: 0.3s;
 }
 
-/*.feynman__link:hover {
-  opacity: 0.5; }*/
+.feynman__link:hover {
+  opacity: 0.5; }
 
 
 .digits{
@@ -365,7 +299,6 @@
 
 .section-title{
   display: flex;
-  flex-direction: row;
   justify-content: center;
   width:60%;
   margin: 0 auto;
@@ -377,7 +310,6 @@
 
 .section-subtitle {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   margin: 0 auto;
   width:60%;
@@ -420,16 +352,16 @@
  }
 
 
- /*
+
 .khan{
   padding-top: 105px;
   background-color:#F2F2F2;
   color:#1f1f1f;
   height:900px;
   }
-  */ /* Essa altura não está no brief, mas o bloco ficou extremamente espremido e fui tentando ajustar */
+   /* Essa altura não está no brief, mas o bloco ficou extremamente espremido e fui tentando ajustar */
 
-/*
+
 .khan__container{
   display:flex;
   flex-direction:column;
@@ -503,7 +435,7 @@
 
 .khan__buy-link a:hover{
   opacity:0.5;
-} */
+}
 
 .kaufman{
   display: flex;
@@ -568,11 +500,10 @@
   height:660px;
   width: 636px;
   z-index:0;
+  animation: rotation 20s linear infinite;
 }
- /*  animation: rotation 20s linear infinite; */
 
 
-/*
 .resources{
  padding-top: 100px;
  display: flex;
@@ -692,16 +623,14 @@
 .footer__column-link {
   display: flex;
   text-decoration: none;
-  /* opacity:1;
-  transition: 0.3s;*/
+  opacity:1;
+  transition: 0.3s;
   color:white;
 }
 
-
-/*
 .footer__column-link:hover{
   opacity:0.5;
-} */
+}
 
 .footer__social-icons{
   margin-right:10px;
