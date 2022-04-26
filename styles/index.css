@@ -131,6 +131,7 @@
 /* Começo das Importações do bloco Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_about.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
