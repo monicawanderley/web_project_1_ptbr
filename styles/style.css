@@ -17,61 +17,6 @@
 
 
 
-.feynman{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height:790px;
-  background-color: #F2F2F2;
-  position:relative;
-  padding-top: 100px;
-}
-
-.feynman__image{
-  position:absolute;
-  bottom: 0;
-  left:0;
-  width: 867px;
-  height: 637px;
-  background-repeat:no-repeat;
-  z-index: 1;
- }
-
-.feynman__title {
-  width: 775px;
-  display:flex;
-  line-height:1.15;
-  font-size:120px;
-  font-weight: bold;
-  z-index: 2;
-  margin:0;
-}
-
-.feynman__subtitle {
-  display: flex;
-  margin: 70px 0 0 0;
-  line-height: 51px;
-  font-size:36px;
-  z-index: 3;
-}
-
-.feynman__link{
-  text-decoration: none;
-  position:absolute;
-  right:48px;
-  top: 50%;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  color:#2F80ED;
-  opacity:1;
-  transition: 0.3s;
-}
-
-.feynman__link:hover {
-  opacity: 0.5; }
-
-
 .digits{
   width: 100%;
   padding-top: 100px;

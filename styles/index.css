@@ -64,20 +64,16 @@
 
 /* Começo das Importações do bloco Oakley */
 @import url(../blocks/oakley/oakley.css);
-@import url();
-@import url();
-@import url();
-@import url();
 /* Final das Importações do bloco Oakley */
 
 
 
 /* Começo das Importações do bloco Feynman */
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__image/feynman__image.css);
+@import url(../blocks/feynman/__title/feynam__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
 /* Final das Importações do bloco Feynman */
 
 
