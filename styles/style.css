@@ -31,89 +31,24 @@
 
 
 
-.khan{
-  padding-top: 105px;
-  background-color:#F2F2F2;
-  color:#1f1f1f;
-  height:900px;
-  }
-   /* Essa altura não está no brief, mas o bloco ficou extremamente espremido e fui tentando ajustar */
 
 
-.khan__container{
-  display:flex;
-  flex-direction:column;
-  width:80%;
-  margin:0 auto;
-  }
 
-.khan__author{
-  line-height:42px;
-  font-size:30px;
-  font-weight:normal;
-  margin-bottom: 0;
-}
 
-.khan__title{
-  line-height:1.15;
-  font-size:60px;
-  font-weight:bold;
-  margin-top: 0;
-}
 
-.khan__quote{
-  width:790px;
-  padding-top: 50px;
-  margin:0;
-  line-height:34px;
-  font-size:24px;
-  font-weight:normal;
-}
 
-.khan__quote_author{
- padding-top:36px;
- margin:0;
- line-height:1.15;
- font-size:24px;
- font-weight:bold;
-}
 
-.khan__quote-author-subline{
-  padding-top:10px;
-  margin:0;
-  line-height:1.15;
-  font-size:24px;
-  font-weight:normal;
-  padding-bottom:68px;
-}
 
-.khan__book-container{
-  display: flex;
 
-}
 
-.khan__book-pic{
-  top:0;
-  left:0;
-  height: 608px;
-  width: 620px;
-  object-fit: cover;
-  object-position: -18% -18%;
-}
 
-.khan__buy-link{
-  text-decoration: none;
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  color:#2F80ED;
-  opacity:1;
-  transition: 0.3s;
-}
 
-.khan__buy-link a:hover{
-  opacity:0.5;
-}
+
+
+
+
+
+
 
 .kaufman{
   display: flex;
