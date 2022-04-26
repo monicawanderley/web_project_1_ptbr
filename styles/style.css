@@ -11,87 +11,21 @@
 
 /* parameters for the header section */
 
-.footer{
-  display: flex;
-  flex-direction:column;
-  background-color: #1f1f1f;
-  color:white;
-  min-height: 350px;
-  padding-top: 60px;
-  padding-bottom:40px;
-
-}
-
-.logo__place_footer{
-  width:183px;
-  height:35px;
-}
-
-.footer__columns{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width:90%;
-  margin:0 auto;
-}
-
-.footer__colum_content_copyright{
-  display:flex;
-  flex-basis: 711px;
-}
 
 
-.footer__author{
-  display:flex;
-  flex-direction: column;
-  justify-content:flex-end;
-  padding: 18px;
-  line-height: 25px;
-  font-size: 18px;
-}
 
-.footer__column_content_about{
-  display:flex;
-  flex-direction: column;
-}
 
-.footer__column-heading{
-  padding-bottom: 20px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: bold;
-  margin:0;
-}
 
-.footer__list {
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  margin:0;
-  }
 
-.footer__column_content_social{
-  display:flex;
-  flex-direction:column;
-  }
 
-.footer__column-link {
-  display: flex;
-  text-decoration: none;
-  opacity:1;
-  transition: 0.3s;
-  color:white;
-}
 
-.footer__column-link:hover{
-  opacity:0.5;
-}
 
-.footer__social-icons{
-  margin-right:10px;
-  height:16px;
-  width:16px;
-}
+
+
+
+
+
+
+
+
+
