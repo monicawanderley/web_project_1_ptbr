@@ -20,11 +20,11 @@
 }
 
 .logo{
-  position:absolute;
   z-index:1;
 }
 
 .logo_place_header{
+  position:absolute;
   width:154px;
   height:31px;
   padding-top: 30px;
@@ -60,9 +60,9 @@
   position: absolute;
   right: 0px;
   bottom: 0px;
-  z-index: 1;
   width: 756px;
   height: 608px;
+  z-index:3;
 }
 
 .header__link {
@@ -72,11 +72,13 @@
 }
 
 .header__square{
+  position:absolute;
   top:64px;
   right: 0px;
   height: 568px;
   width: 568px;
   background-color:#2F80ED;
+  z-index:2;
 }
 
 
@@ -198,21 +200,23 @@
 }
 
 .feynman__title {
+  display: flex;
+  text-align: center;
   width: 775px;
-  display:flex;
   line-height:1.15;
   font-size:120px;
   font-weight: bold;
-  z-index: 2;
+  z-index: 3;
   margin:0;
 }
 
 .feynman__subtitle {
   display: flex;
+  text-align: center;
   margin: 70px 0 0 0;
   line-height: 51px;
   font-size:36px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .feynman__link{
