@@ -9,3 +9,74 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.header {
+  display:flex;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #F2F2F2;
+}
+
+.logo{
+  position:absolute;
+  z-index:1;
+}
+
+.logo_place_header{
+  width:154px;
+  height:31px;
+  padding-top: 30px;
+  padding-left: 64px;
+}
+
+.header__title{
+  display:flex;
+  align-items:center;
+  z-index: 2;
+  line-height: 96px;
+  width: 730px;
+  margin-left: 64px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+
+.header__subtitle{
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  left:64px;
+  bottom:30px;
+  line-height:25px;
+  font-size: 18px;
+  font-weight: normal;
+  width:388px;
+  z-index:2;
+}
+
+.header__main-ilustration{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  width: 756px;
+  height: 608px;
+}
+
+.header__link {
+  color:#2F80ED;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.header__square{
+  top: 64px;
+  right: 0px;
+  height: 568px;
+  width: 568px;
+  background-color:#2F80ED;
+}
+
+
