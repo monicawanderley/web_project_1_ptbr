@@ -66,7 +66,8 @@
 }
 
 .header__link {
-  color:#2F80ED;
+  margin: 0;
+  color: #2f80ed;
   text-decoration: none;
   font-weight: normal;
 }
@@ -127,6 +128,9 @@
 }
 
 .digits{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -135,23 +139,25 @@
 .section-title{
   display: flex;
   justify-content: center;
+  text-align: center;
   width:60%;
-  margin: 0 auto;
   padding-bottom: 20px;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  margin:0;
 }
 
 
 .section-subtitle {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  text-align: center;
   width:60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin:0;
 }
 
 
@@ -245,11 +251,10 @@
  .kaufman{
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items:center;
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
-  color: white;
   padding-top: 90px;
   padding-bottom:90px;
 }
@@ -257,10 +262,12 @@
 
 .section-title_theme_dark {
   z-index: 3;
+  color: white;
 }
 
 .section-subtitle_theme_dark{
   z-index: 3;
+  color: white;
 }
 
 .kaufman__triangle{
@@ -282,6 +289,7 @@
 
 .table__heading_theme_dark{
   z-index: 2;
+  color: white;
 }
 
 .table__text_theme_dark{
@@ -289,6 +297,7 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
+  color: white;
 }
 
 
@@ -321,10 +330,11 @@
 .footer__column_content_copyright{
   display:flex;
   flex-basis: 711px;
+  min-height: 250px;
   justify-content: space-between;
 }
 
-.logo__place_footer{
+.logo_place_footer{
   margin:0;
   width:183px;
   height:35px;
@@ -346,7 +356,6 @@
 
 .footer__list {
   list-style: none;
-  text-decoration: none;
   color: white;
   line-height: 30px;
   font-size: 18px;
@@ -368,12 +377,16 @@
   margin: 0 0 20px;
 }
 
-.footer__column-link {
+.footer__column-link a {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  text-decoration: none;
+  margin: 0;
   color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer__social-icons{
