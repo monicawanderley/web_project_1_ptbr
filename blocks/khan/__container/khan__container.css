@@ -1,6 +1,6 @@
-.khan__container{
-  display:flex;
-  flex-direction:column;
-  width:80%;
-  margin:0 auto;
-  }
+.khan__container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}

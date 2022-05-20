@@ -1,3 +1,4 @@
-.khan__book-container{
+.khan__book-container {
+  overflow: hidden;
   display: flex;
 }
