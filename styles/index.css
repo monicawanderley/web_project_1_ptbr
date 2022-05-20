@@ -5,12 +5,9 @@
 
 /* Final das Importações dos blocos roots e vendor */
 
-
 /* Começo das Importações do bloco keyframes */
 @import url(../blocks/keyframes/keyframes.css);
 /* Final das Importações do bloco keyframes */
-
-
 
 /* Começo das Importações do bloco Header */
 @import url(../blocks/header/header.css);
@@ -21,15 +18,11 @@
 @import url(../blocks/header/__square/header__square.css);
 /* Final das Importações do bloco Header */
 
-
-
 /* Começo das Importações do bloco Logo */
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__place/logo__place_header.css);
-@import url(../blocks/logo/__place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 /* Final das Importações do bloco Logo */
-
-
 
 /* Começo das Importações do bloco Description */
 @import url(../blocks/description/descritption.css);
@@ -40,9 +33,6 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /* Final das Importações do bloco Description  */
 
-
-
-
 /* Começo das Importações do bloco Techniques */
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);
@@ -52,21 +42,15 @@
 @import url(../blocks/cards/__description/cards__description.css);
 /* Final das Importações do bloco Techniques */
 
-
-
 /* Começo das Importações do bloco Video */
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video_iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
 /* Final das Importações do bloco Video */
 
-
-
 /* Começo das Importações do bloco Oakley */
 @import url(../blocks/oakley/oakley.css);
 /* Final das Importações do bloco Oakley */
-
-
 
 /* Começo das Importações do bloco Feynman */
 @import url(../blocks/feynman/feynman.css);
@@ -75,8 +59,6 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 /* Final das Importações do bloco Feynman */
-
-
 
 /* Começo das Importações do bloco Digits */
 @import url(../blocks/digits/digits.css);
@@ -91,7 +73,6 @@
 @import url(../blocks/table/__text/table__text.css);
 /* Final das Importações do bloco Table */
 
-
 /* Começo das Importações do bloco Khan */
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__author/khan__author.css);
@@ -105,8 +86,6 @@
 @import url(../blocks/khan/__buy/khan__buy-link.css);
 /* Final das Importações do bloco Khan */
 
-
-
 /* Começo das Importações do bloco Kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/section/title/_theme/section-title_theme_dark.css);
@@ -118,15 +97,11 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 /* Final das Importações do bloco Kaufman */
 
-
-
 /* Começo das Importações do bloco Resources */
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 /* Final das Importações do bloco Resources */
-
-
 
 /* Começo das Importações do bloco Footer */
 @import url(../blocks/footer/footer.css);
@@ -135,10 +110,10 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_about.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/footer/column/footer__column-heading.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/column/footer__column-link.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
-@import url(../blocks/footer/column/footer__column-link.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
 /* Final das Importações do bloco Footer */

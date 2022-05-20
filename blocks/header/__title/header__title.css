@@ -1,7 +1,7 @@
 .header__title {
   display: flex;
   align-items: center;
-  z-index: 2;
+  z-index: 3;
   line-height: 96px;
   width: 730px;
   margin-left: 64px;
