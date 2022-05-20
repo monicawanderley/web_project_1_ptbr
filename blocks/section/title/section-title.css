@@ -1,10 +1,11 @@
-.section-title{
+.section-title {
   display: flex;
   justify-content: center;
-  width:60%;
-  margin: 0 auto;
+  text-align: center;
+  width: 60%;
   padding-bottom: 20px;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  margin: 0;
 }
