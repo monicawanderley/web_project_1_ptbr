@@ -1,9 +1,11 @@
-.header__square{
+.header__square {
+  position: absolute;
   top: 64px;
-  right: 0px;
+  right: 0;
   height: 568px;
   width: 568px;
-  background-color:#2F80ED;
-  transform:rotate(-15deg);
+  background-color: #2f80ed;
+  z-index: 2;
+  transform: rotate(-15deg);
   animation: rotation 20s linear infinite;
 }
