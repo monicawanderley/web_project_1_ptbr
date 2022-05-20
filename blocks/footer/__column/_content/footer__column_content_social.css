@@ -1,4 +1,5 @@
-.footer__column_content_social{
-  display:flex;
-  flex-direction:column;
-  }
+.footer__column_content_social {
+  display: flex;
+  margin: 0;
+  align-items: flex-start;
+}

@@ -1,9 +1,10 @@
-.footer{
+.footer {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   background-color: #1f1f1f;
-  color:white;
+  color: white;
   min-height: 350px;
   padding-top: 60px;
-  padding-bottom:40px;
+  padding-bottom: 40px;
+  margin: 0;
 }
