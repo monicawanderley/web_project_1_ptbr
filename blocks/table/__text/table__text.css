@@ -2,8 +2,6 @@
   line-height: 1.12;
   font-size: 18px;
   font-weight: normal;
-  margin-top:20px;
-  margin-left:0;
-  margin-right:0;
-  margin-bottom:0;
- }
+  padding-top: 20px;
+  margin: 0;
+}
