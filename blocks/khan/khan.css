@@ -1,8 +1,5 @@
-.khan{
+.khan {
   padding-top: 105px;
-  background-color:#F2F2F2;
-  color:#1f1f1f;
-  height:900px;
-  }
-   /* Essa altura não está no brief, mas o bloco ficou extremamente espremido e fui tentando ajustar */
-
+  background-color: #f2f2f2;
+  color: #1f1f1f;
+}
